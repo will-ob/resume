@@ -52,6 +52,7 @@
 \renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
 
 \usepackage{titlesec} % Allows creating custom \section's
+\usepackage{tabularx}
 
 % Format of the section titles
 \titleformat{\section}{\color{headings}
@@ -112,7 +113,7 @@
 
 {\raggedleft\textsc{Jan 2008 - May 2011}\par}
 
-{\raggedright\large EMT and Dispatcher at \textsc{Pittsford Volunteer Ambulance}[5pt]}
+{\raggedright\large EMT and Dispatcher \\ \small\textsc{Pittsford Volunteer Ambulance}}
 \begin{itemize}
   \item Directed ambulance crews across the county via radio communications in conjunction with the 911 call center
   \item Coordinated multiple emergency services to ensure effective response to emergency situations
@@ -128,9 +129,9 @@
 \section{Languages \& Frameworks } 
 
 {\scriptsize \href{http://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition}{\textit{See Dreyfus model of skills acquisition}}} \\ \\
-\begin{tabular}{rl}
+\begin{tabularx}{\linewidth}{ r X }
 Novice
-& \LaTeX \\ 
+& \LaTeX \\
 \\
 Advanced Beginner
 & {Jasmine, Rspec, Cucumber, Git, Spring Security} \\
@@ -140,7 +141,7 @@ Competent
 \\
 Proficient
 & Java, HTML, CSS, Spring (Core \& MVC) \\
-\end{tabular}\\[10pt]
+\end{tabularx}\\[10pt]
 
 
 \end{minipage} % End left-hand side of the page
